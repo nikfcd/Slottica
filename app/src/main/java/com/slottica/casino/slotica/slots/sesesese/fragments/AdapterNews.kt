@@ -9,6 +9,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.slottica.casino.slotica.slots.sesesese.ItemActivity
+import com.slottica.casino.slotica.slots.sesesese.ItemnewsActivity
 import com.slottica.casino.slotica.slots.sesesese.R
 import com.slottica.casino.slotica.slots.sesesese.fragments.model.CardsModel
 import com.slottica.casino.slotica.slots.sesesese.fragments.model.NewsModel
@@ -29,7 +30,7 @@ class AdapterNews(private val mList: List<NewsModel>, val context: Context) : Re
         holder.news.text = ItemsViewModel.news
         holder.time.text = ItemsViewModel.time
         holder.itemView.setOnClickListener {
-            val intent= Intent(context,ItemActivity::class.java)
+            val intent= Intent(context,ItemnewsActivity::class.java)
             intent.putExtra("name",ItemsViewModel.full_news)
             intent.putExtra("icon",ItemsViewModel.icon)
             context.startActivity(intent)
