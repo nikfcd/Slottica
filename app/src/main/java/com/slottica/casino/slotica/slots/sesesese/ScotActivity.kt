@@ -92,6 +92,11 @@ class ScotActivity : AppCompatActivity() {
 
     }
 
+    override fun onBackPressed() {
+
+
+    }
+
 
 
 
