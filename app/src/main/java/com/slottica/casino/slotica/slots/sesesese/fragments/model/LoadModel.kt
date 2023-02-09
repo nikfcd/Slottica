@@ -39,15 +39,53 @@ fun loadCardsModel(category:String):ArrayList<CardsModel>{
 }
 fun loadNewsModel():ArrayList<NewsModel>{
     val model=ArrayList<NewsModel>()
-    model.add(NewsModel("Genius Sports Launches Genius Marketing Suite","Last Updated 07/02/2023 10:32am • Stephen Ross"))
-    model.add(NewsModel("FunFair Games Rebrands","Last Updated 07/02/2023 10:03am • Abigail Moses"))
-    model.add(NewsModel("Pariplay Launches Game-changing New Client Area for Fusion Partners","Last Updated 07/02/2023 9:57am • Abigail Moses"))
-    model.add(NewsModel("Evolution Unveils Latest iGaming Products at ICE.","Last Updated 07/02/2023 9:50am • Andrew Jones"))
-    model.add(NewsModel("Huddle Announces Genius Sports as Official Data Partner","Last Updated 07/02/2023 6:04am • Abigail Moses"))
-    model.add(NewsModel("Salsa Technology Enhances Salsa Gator Offering with PopOK Gaming Tie-up","Last Updated 06/02/2023 1:29pm • Beth Woods"))
-    model.add(NewsModel("GAMOMAT Wins Charitable Community Award at International Gaming Awards","Last Updated 08/02/2023 1:17pm • Abigail Moses"))
-    model.add(NewsModel("FinteqHub Enters iGaming Market as a Standalone Payment Gateway Built by SOFTSWISS","Last Updated 03/02/2023 9:02am • Andrew Jones"))
-    model.add(NewsModel("Online Operator In Touch Games Fined £6.1m ","Last Updated 01/02/2023 2:04pm • Beth Woods"))
-    model.add(NewsModel("888 Shares Decline as CEO is Fired","Last Updated 01/02/2023 12:52pm • Beth Woods"))
+    model.add(NewsModel("Genius Sports Launches Genius Marketing Suite","Last Updated 07/02/2023 10:32am • Stephen Ross",R.drawable.enius_arketing_u1 ,"Genius Sports, the official data, technology and broadcast partner that powers the global ecosystem connecting sports, betting and media, has announced the launch of Genius Marketing Suite, an all-in-one fan engagement engine specifically developed to transform how a range of partners identify, engage and retain sports fans.\n" +
+            "\n" +
+            "Today’s sports fans expect personalised and authentic experiences. Genius Marketing Suite enables brands, sponsors, sportsbooks, leagues and teams, to meet those needs and power every stage of their fan marketing journey.\n" +
+            "\n" +
+            "The suite of products combines a sports-centric media buying service, that provides marketing teams access to millions of fans worldwide, with a dynamic creative solution that makes it easy to design, automate and distribute personalised video and display adverts at scale. In addition, the platform features a full set of interactive digital engagement tools, that help brands establish long-term relationships with fans."))
+    model.add(NewsModel("FunFair Games Rebrands","Last Updated 07/02/2023 10:03am • Abigail Moses",R.drawable.chaha ,"Pioneering studio FunFair Games has unveiled its new branding and logo, designed to modernise the company’s brand vision, personality and identity, and reinforcing its goal to be a leading premium supplier of next generation content.\n" +
+            "\n" +
+            "The rebrand underlines FunFair Games' investment in creating a strong brand and identity as part of the company’s ambitious growth plans for 2023.\n" +
+            "\n" +
+            "The new logo and design have been revealed as the studio prepares to deliver a host of new games in 2023, which will offer a more diverse portfolio consisting of a wider range of mechanics and features. All designed to appeal to operators and players who are looking for something new outside of the current traditional offering."))
+    model.add(NewsModel("Pariplay Launches Game-changing New Client Area for Fusion Partners","Last Updated 07/02/2023 9:57am • Abigail Moses",R.drawable.evolut ,"NeoGames S.A (Nasdaq: NGMS) subsidiary Pariplay®, has launched its new, comprehensive Client Area, providing a simple and unique point of service for the marketing and compliance assets within its vast Fusion® portfolio.\n" +
+            "\n" +
+            "Designed to further consolidate Pariplay’s status as the aggregation partner of choice in regulated markets worldwide, this unique and extensive new Client Area helps to make life easier for operators by delivering a massive number of games assets within a single, easy-to-use site.\n" +
+            "\n" +
+            "In a first for the industry, operators utilising the Fusion® platform will now be able to quickly search, cross-filter and download marketing assets, game info sheets, game rules and certification files of games within Pariplay’s broad portfolio of high-value, tier-one and localised games."))
+    model.add(NewsModel("Evolution Unveils Latest iGaming Products at ICE.","Last Updated 07/02/2023 9:50am • Andrew Jones",R.drawable.huddle ,"At ICE London 2023, which will take place at ExCeL London from February 7–9, the online casino solutions provider Evolution will showcase a selection of its new online games for 2023. This will include innovations from its group brands, including Evolution, NetEnt, Red Tiger, Ezugi, Big Time Gaming, Nolimit City, and DigiWheel. The business will be at booth N1-100. Evolution Group will release more than one hundred new games over the course of 2023.\n" +
+            "\n" +
+            "Funky Time is one of the new games that will be unveiled by Evolution. This has been described as \"a ’70s disco-themed, bonus and multiplier-laden extravaganza and Evolution’s biggest new game show since Crazy Time.\" \n" +
+            "\n" +
+            "Another new live game show from Evolution is Extra Chilli Epic Spins, which combines qualities off live casino and slots. \"With several interactive, unique features and bonus rounds, this social experience is perhaps best described as “real-time slots with friends,\" points out the brand."))
+    model.add(NewsModel("Huddle Announces Genius Sports as Official Data Partner","Last Updated 07/02/2023 6:04am • Abigail Moses",R.drawable.image00149 ,"Huddle, the next generation iGaming technology provider, has signed a deal with Genius Sports that will see it become the company’s data partner.\n" +
+            "\n" +
+            "The partnership will give Huddle access to Genius Sports’ official data-driven PreMatch, LiveData and Next Gen Stats (NGS) to deliver real-time feeds and pin-point pricing.\n" +
+            "\n" +
+            "Genius Sports’ feeds will enable Huddle to better leverage its industry-leading pricing algorithm for US sports. By powering Huddle’s machine-learning based models with its ultra-low latency data Huddle will offer comprehensive pricing solutions for a range of US sports, laying the foundations for industry-wide innovation."))
+    model.add(NewsModel("Salsa Technology Enhances Salsa Gator Offering with PopOK Gaming Tie-up","Last Updated 06/02/2023 1:29pm • Beth Woods",R.drawable.image00150 ,"Salsa Technology has further enhanced its Salsa Gator offering with the integration of PopOK Gaming’s diverse portfolio of slots, live casino and instant games onto its platform.\n" +
+            "\n" +
+            "PopOK Gaming specialises in developing games that each feature eye-popping designs and  dynamic animations. Among the most recognisable titles to join Salsa Gator from PopOK Gaming’s in-house studio are Yummy, Richy Panda, Diamond Flash and 20 Hot Bar.\n" +
+            "\n" +
+            "Salsa’s market-leading Salsa Gator continues to be a rich source for games that cover a wide spectrum of engaging themes. Every one of the games can be seamlessly accessed through a single integration and are proven to drive positive results for operators across Latin America."))
+    model.add(NewsModel("GAMOMAT Wins Charitable Community Award at International Gaming Awards","Last Updated 08/02/2023 1:17pm • Abigail Moses",R.drawable.intoucjaming ,"GAMOMAT, one of the leading independent software developers for slot games, is proud to announce that it has won the Charitable Community Award at the 2023 International Gaming Awards. The awards ceremony was held at the prestigious Savoy Hotel in London on Monday, and it was a night of celebration and recognition for the gaming industry's most impactful and innovative players.\n" +
+            "\n" +
+            "GAMOMAT's philosophy is built on strong values that prioritise people and their living environment. Social and ecological sustainability are deeply ingrained in the company's corporate culture."))
+    model.add(NewsModel("FinteqHub Enters iGaming Market as a Standalone Payment Gateway Built by SOFTSWISS","Last Updated 03/02/2023 9:02am • Andrew Jones",R.drawable.pr ,"A new name in the iGaming market – FinteqHub – will present its PCI DSS certified payment gateway at the ICE London exhibition next week. The novelty, developed by the SOFTSWISS PSP Team, provides access to integrations with various payment systems via a single platform. The application allows businesses to manage financial transactions, set up processing rules, and generate cash flow analytics. \n" +
+            "\n" +
+            "The product enables connection of all in-demand payment methods, including card payments, open banking, e-wallets and vouchers from Canada, Brazil, Australia, New Zealand, India and various European countries.\n" +
+            "\n" +
+            "Apart from that, FinteqHub equips operators with a flexible payment infrastructure accommodating a large number of sites and dependencies. The customisable and highly intuitive application allows using FinteqHub as full-fledged back office with real-time monitoring and 24/7 operational support. "))
+    model.add(NewsModel("Online Operator In Touch Games Fined £6.1m","Last Updated 01/02/2023 2:04pm • Beth Woods",R.drawable.evolut ,"A compliance evaluation conducted by In Touch Games, which manages 11 websites, including bonusboss.co.uk, cashmo.co.uk, drslot.co.uk, jammymonkey.com, and slotfactory.com, was unsuccessful in March.\n" +
+            "\n" +
+            "Failures in social responsibility include:\n" +
+            "\n" +
+            "Waiting seven weeks to interact with a consumer who had been identified for interaction due to unpredictable play patterns and prolonged play times. \n" +
+            "\n" +
+            "Accepting a customer's claim that they make £6,000 per month without checking it out after the customer account was flagged for excessive spending and late-night gambling."))
+    model.add(NewsModel("888 Shares Decline as CEO is Fired","Last Updated 01/02/2023 12:52pm • Beth Woods",R.drawable.intoucjaming ,"Following an internal inquiry into a failure to follow anti-money laundering procedures, online betting giant 888 has fired its chief executive and blocked VIP customer accounts in the Middle East.\n" +
+            "\n" +
+            "Shares in the Gibraltar-based company, which in 2017 paid £2.2 billion to purchase William Hill's international assets, fell by more than a quarter as investors fueled 888's largest share price decline since 2006. Over the past year, its market value has decreased by more than 70%. "))
     return model
 }

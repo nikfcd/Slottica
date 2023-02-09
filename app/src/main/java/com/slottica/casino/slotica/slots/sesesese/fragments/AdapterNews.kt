@@ -13,7 +13,7 @@ import com.slottica.casino.slotica.slots.sesesese.R
 import com.slottica.casino.slotica.slots.sesesese.fragments.model.CardsModel
 import com.slottica.casino.slotica.slots.sesesese.fragments.model.NewsModel
 
-class AdapterNews(private val mList: List<NewsModel>) : RecyclerView.Adapter<AdapterNews.ViewHolder>() {
+class AdapterNews(private val mList: List<NewsModel>, val context: Context) : RecyclerView.Adapter<AdapterNews.ViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
 
@@ -28,7 +28,12 @@ class AdapterNews(private val mList: List<NewsModel>) : RecyclerView.Adapter<Ada
         val ItemsViewModel = mList[position]
         holder.news.text = ItemsViewModel.news
         holder.time.text = ItemsViewModel.time
-
+        holder.itemView.setOnClickListener {
+            val intent= Intent(context,ItemActivity::class.java)
+            intent.putExtra("name",ItemsViewModel.full_news)
+            intent.putExtra("icon",ItemsViewModel.icon)
+            context.startActivity(intent)
+        }
     }
 
     override fun getItemCount(): Int {

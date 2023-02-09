@@ -29,7 +29,7 @@ class SplashActivity : AppCompatActivity() {
         val prefs = Prefs.getPref(this, PREF)
         val remoteConfig: FirebaseRemoteConfig = Firebase.remoteConfig
         val configSettings = remoteConfigSettings {
-            minimumFetchIntervalInSeconds = 3600
+            minimumFetchIntervalInSeconds = 10
         }
         GlobalScope.launch {
             val adInfo = AdvertisingIdClient.getAdvertisingIdInfo(getApplicationContext())
@@ -68,6 +68,7 @@ class SplashActivity : AppCompatActivity() {
                                 val id=apssflyerLib.getAppsFlyerUID(this@SplashActivity)
                                 link= link+"&client_id=${id}&white=${advertid}"
                                 prefs.link= link
+                                Log.e("pref.link:",prefs.link!!)
                                 goNext()
                             }else{
                                 //link empty
