@@ -10,6 +10,6 @@ class ItemActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_item)
         img_item.setImageResource(intent.getIntExtra("icon",R.drawable.ragingbull)!!)
-        txt_fullnews.text=intent.getStringExtra("description")!!
+        txt_description.text=intent.getStringExtra("description")!!
     }
 }
