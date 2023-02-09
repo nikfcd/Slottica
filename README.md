@@ -1,0 +1,3 @@
+# Slottica
+Test project
+WebViewApp
