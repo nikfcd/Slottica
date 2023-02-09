@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "971331897593",
+    "project_id": "slottica-b3914",
+    "storage_bucket": "slottica-b3914.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:971331897593:android:23a19c04066bc073143a28",
+        "android_client_info": {
+          "package_name": "com.slottica.casino.slotica.slots.sesesese"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "971331897593-9hqcj31hm2q5b4a0naf752pldqv075i9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_wCE_lidFW31pXM_yy3rdKHbp5Sv-0w0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "971331897593-9hqcj31hm2q5b4a0naf752pldqv075i9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
