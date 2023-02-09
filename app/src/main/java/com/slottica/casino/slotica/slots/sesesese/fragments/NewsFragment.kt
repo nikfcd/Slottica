@@ -25,7 +25,7 @@ class NewsFragment : Fragment() {
         val recyclerview = view.findViewById<RecyclerView>(R.id.rec_news)
         recyclerview.layoutManager = GridLayoutManager(requireContext(),1,
             RecyclerView.VERTICAL,false)
-        val adapter = AdapterNews(loadNewsModel())
+        val adapter = AdapterNews(loadNewsModel(),requireContext())
         recyclerview.adapter = adapter
 
         return view
